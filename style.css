@@ -4,15 +4,18 @@
   color: #333;
   font-family: "Lato", sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__img {
   width: 100%;
 }
+
 .header__link {
   font-family: "fantasy", cursive;
 }
@@ -24,31 +27,38 @@
   }
 
 }
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .task-add {
   display: flex;
 }
+
 ul {
   margin: 0;
   padding: 0px;
 }
+
 li,
 h3 {
   list-style: none;
 }
+
 input,
 button {
   outline: none;
 }
+
 .button {
   background: none;
   border: 0px;
@@ -58,9 +68,11 @@ button {
   font-family: "Lato", sans-serif;
   cursor: pointer;
 }
+
 .button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .section__title {
   color: #333;
@@ -71,6 +83,7 @@ button {
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-add__input,
 .todo-section__text-input,
 .completed-section__text-input {
@@ -85,6 +98,7 @@ button {
   font-family: "Lato", sans-serif;
   color: #888;
 }
+
 .task-add__input:focus,
 .todo-section__text-input:focus,
 .completed-section__text-input:focus {
@@ -96,6 +110,7 @@ button {
   display: block;
   margin: 0 0 20px;
 }
+
 .task-add__input {
   width: 318px;
 }
@@ -111,6 +126,7 @@ button {
   justify-content: space-between;
   align-items: center;
 }
+
 .todo-section__item > *,
 .completed-section__item > * {
   vertical-align: middle;
@@ -119,6 +135,7 @@ button {
 .checkbox {
   margin: 0 10px;
 }
+
 .todo-section__label,
 .completed-section__label {
   padding-left: 10px;
@@ -126,15 +143,18 @@ button {
   font-size: 18px;
   width: 226px;
 }
+
 .todo-section__text-input,
 .completed-section__text-input {
   width: 226px;
 }
+
 .button__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .button__img:hover {
   transform: rotateZ(0);
 }
